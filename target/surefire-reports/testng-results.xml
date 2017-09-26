@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="36327" started-at="2017-09-25T18:14:06Z" finished-at="2017-09-25T18:14:42Z">
+    <groups>
+      <group name="functest">
+        <method signature="APITest.f()[pri:0, instance:Merck.APITest@100fc185]" name="f" class="Merck.APITest"/>
+        <method signature="Homepage.basePageNavigation()[pri:0, instance:Merck.Homepage@224edc67]" name="basePageNavigation" class="Merck.Homepage"/>
+        <method signature="Homepage.basePageNavigation2()[pri:0, instance:Merck.Homepage@224edc67]" name="basePageNavigation2" class="Merck.Homepage"/>
+      </group> <!-- functest -->
+      <group name="unittest">
+        <method signature="Homepage.basePageNavigation2()[pri:0, instance:Merck.Homepage@224edc67]" name="basePageNavigation2" class="Merck.Homepage"/>
+      </group> <!-- unittest -->
+      <group name="smoketest">
+        <method signature="APITest.f()[pri:0, instance:Merck.APITest@100fc185]" name="f" class="Merck.APITest"/>
+        <method signature="Homepage.basePageNavigation()[pri:0, instance:Merck.Homepage@224edc67]" name="basePageNavigation" class="Merck.Homepage"/>
+        <method signature="Homepage.basePageNavigation2()[pri:0, instance:Merck.Homepage@224edc67]" name="basePageNavigation2" class="Merck.Homepage"/>
+      </group> <!-- smoketest -->
+    </groups>
+    <test name="API Test 1" duration-ms="40" started-at="2017-09-25T18:14:06Z" finished-at="2017-09-25T18:14:06Z">
+      <class name="Merck.APITest">
+        <test-method status="PASS" signature="f()[pri:0, instance:Merck.APITest@100fc185]" name="f" duration-ms="20" started-at="2017-09-25T14:14:06Z" finished-at="2017-09-25T14:14:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Merck.APITest -->
+    </test> <!-- API Test 1 -->
+    <test name="Functional Test 1" duration-ms="36157" started-at="2017-09-25T18:14:06Z" finished-at="2017-09-25T18:14:42Z">
+      <class name="Merck.Homepage">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Merck.Homepage@224edc67]" name="basePageNavigation" duration-ms="20255" started-at="2017-09-25T14:14:06Z" finished-at="2017-09-25T14:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation2()[pri:0, instance:Merck.Homepage@224edc67]" name="basePageNavigation2" duration-ms="15892" started-at="2017-09-25T14:14:26Z" finished-at="2017-09-25T14:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation2 -->
+      </class> <!-- Merck.Homepage -->
+    </test> <!-- Functional Test 1 -->
+    <test name="Integration  Test 1" duration-ms="0" started-at="2017-09-25T18:14:42Z" finished-at="2017-09-25T18:14:42Z">
+    </test> <!-- Integration  Test 1 -->
+    <test name="System Test 2" duration-ms="0" started-at="2017-09-25T18:14:42Z" finished-at="2017-09-25T18:14:42Z">
+    </test> <!-- System Test 2 -->
+  </suite> <!-- Test Suite -->
+</testng-results>

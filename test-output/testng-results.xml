@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22050" started-at="2017-09-25T19:35:13Z" finished-at="2017-09-25T19:35:35Z">
+    <groups>
+      <group name="functest">
+        <method signature="Homepage.basePageNavigation()[pri:0, instance:Merck.Homepage@69ea3742]" name="basePageNavigation" class="Merck.Homepage"/>
+      </group> <!-- functest -->
+      <group name="smoketest">
+        <method signature="Homepage.basePageNavigation()[pri:0, instance:Merck.Homepage@69ea3742]" name="basePageNavigation" class="Merck.Homepage"/>
+      </group> <!-- smoketest -->
+    </groups>
+    <test name="Default test" duration-ms="22050" started-at="2017-09-25T19:35:13Z" finished-at="2017-09-25T19:35:35Z">
+      <class name="Merck.Homepage">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Merck.Homepage@69ea3742]" name="basePageNavigation" duration-ms="22002" started-at="2017-09-25T15:35:13Z" finished-at="2017-09-25T15:35:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- Merck.Homepage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Test Suite]">
+  <listeners>
+    <listener class-name="Merck.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="Functional Test 1(failed)">
+    <groups>
+      <run>
+        <include name="functest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Merck.Homepage">
+        <methods>
+          <include name="basePageNavigation2"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- Merck.Homepage -->
+    </classes>
+  </test> <!-- Functional Test 1(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

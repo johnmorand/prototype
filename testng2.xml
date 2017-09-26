@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+  <groups> 
+    <run> 
+      <include name="unittest"/> 
+    </run> 
+  </groups> 
+  <listeners>
+  	<listener class-name="Merck.listeners"/>
+  	<listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="API Test 1">
+    <classes>
+      <class name="Merck.APITest"/>
+    </classes>
+  </test>
+  <test name="Functional Test 1">
+  	<classes>
+      <class name="Merck.Homepage"/>
+    </classes>
+   </test>
+   <test name="Integration 	Test 1">
+   	  <classes>  
+      <class name="Merck.Homepage2"/>
+    </classes>
+   </test>
+    <test name="System Test 2">
+   	  <classes>  
+      <class name="Merck.Homepage3"/>
+    </classes>
+   </test>
+<!-- Test -->
+</suite> <!-- Suite -->

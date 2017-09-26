@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]">
+  <listeners>
+    <listener class-name="Merck.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="Integration  Test 1(failed)">
+    <classes>
+      <class name="Merck.Homepage2">
+        <methods>
+          <include name="validateSignInNavigation" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Merck.Homepage2 -->
+    </classes>
+  </test> <!-- Integration  Test 1(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
